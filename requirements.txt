@@ -1,0 +1,11 @@
+# jeju-datahub-clip 패키지 의존성 목록
+# Streamlit Community Cloud (Linux) 및 로컬 환경 호환 설정
+# 불필요한 torchvision 제거 완료 (CPU PyTorch 및 핵심 라이브러리만 구성)
+
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+torch==2.15.0+cpu
+transformers==5.22.2
+pillow==13.0.0
+pymupdf==2.1
+streamlit==1.67.0

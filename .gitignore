@@ -1,0 +1,27 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Virtual Environment
+.venv/
+env/
+venv/
+ENV/
+
+# Windows Junction at project root
+# (실제 원본 PDF는 data/reports/ 에 저장되어 정상 업로드됩니다)
+/reports
+
+# Backup & temporary files
+*.bak
+*.tmp
+*.log
+
+# OS & IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
